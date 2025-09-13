@@ -30,7 +30,7 @@ jobs:
       - name: Checkout kernel source
         uses: actions/checkout@v4
         with:
-          repository: epicmann24/android_kernel_common_oneplus_sm8750
+          repository: jianfeng6/android_kernel_common_oneplus_sm8750
           path: kernel_workspace/android-kernel
 
       - name: Checkout susfs4ksu
